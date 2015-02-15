@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>refluxjs</artifactId>
-    <version>0.2.5-SNAPSHOT</version>
+    <version>0.2.5</version>
     <name>RefluxJS</name>
     <description>WebJar for RefluxJS</description>
     <url>http://webjars.org</url>
@@ -50,7 +50,7 @@
         <url>http://github.com/webjars/refluxjs</url>
         <connection>scm:git:https://github.com/webjars/refluxjs.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/refluxjs.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>refluxjs-0.2.5</tag>
     </scm>
     
     <build>
