@@ -11,14 +11,14 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>refluxjs</artifactId>
-    <version>0.2.6-SNAPSHOT</version>
+    <version>0.2.8-SNAPSHOT</version>
     <name>RefluxJS</name>
     <description>WebJar for RefluxJS</description>
     <url>http://webjars.org</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstream.version>0.2.5</upstream.version>
+        <upstream.version>0.2.7</upstream.version>
         <upstream.url>https://raw.githubusercontent.com/spoike/refluxjs/v${upstream.version}/dist</upstream.url>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${project.version}</destDir>
         <requirejs>
@@ -77,7 +77,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>
-                <version>2.5</version>
+                <version>2.7</version>
             </plugin>
 
             <plugin>
